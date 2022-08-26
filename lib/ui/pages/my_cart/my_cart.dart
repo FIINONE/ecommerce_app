@@ -116,7 +116,33 @@ class _MyCartPageState extends State<MyCartPage> {
                               ),
                               Padding(
                                 padding: const EdgeInsets.only(left: 44.0, right: 44.0, bottom: 44.0, top: 27),
-                                child: AppButton(text: 'Checkout', onTap: () {}),
+                                child: AppButton(
+                                  text: 'Checkout',
+                                  onTap: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) {
+                                        final size = MediaQuery.of(context).size;
+
+                                        return Center(
+                                          child: Container(
+                                            height: size.width / 2,
+                                            width: size.width / 2,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(30), color: Colors.white),
+                                            alignment: Alignment.center,
+                                            padding: const EdgeInsets.all(8),
+                                            child: const Text(
+                                              'Thanks for shopping with us',
+                                              textAlign: TextAlign.center,
+                                              style: AppTextStyles.boldSize25,
+                                            ),
+                                          ),
+                                        );
+                                      },
+                                    );
+                                  },
+                                ),
                               ),
                             ],
                           ),

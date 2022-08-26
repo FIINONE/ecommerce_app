@@ -61,9 +61,9 @@ class _TotalPrice extends StatelessWidget {
     return BlocBuilder<MyCartListCubit, List<GoodModel>>(
         builder: (context, snapshot) {
           int total = 0;
-          goodsCubit.state.forEach((element) {
+          for (var element in goodsCubit.state) {
             total += element.count * element.price;
-          });
+          }
 
           final f = NumberFormat('#,###');
           final priceString = f.format(total);

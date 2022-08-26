@@ -1,9 +1,7 @@
-import 'package:ecommerce_app/bloc/details_bloc/detailed_bloc.dart';
 import 'package:ecommerce_app/bloc/home_bloc/home_bloc.dart';
 import 'package:ecommerce_app/bloc/home_bloc/home_state.dart';
 import 'package:ecommerce_app/common/constants/assets.dart';
 import 'package:ecommerce_app/common/styles/app_text_styles.dart';
-import 'package:ecommerce_app/di.dart';
 import 'package:ecommerce_app/ui/pages/home/blocs/home_filter_cubit.dart';
 import 'package:ecommerce_app/ui/pages/home/elements/home_best_seller.dart';
 import 'package:ecommerce_app/ui/pages/home/elements/home_bottom_panel.dart';

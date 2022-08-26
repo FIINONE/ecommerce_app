@@ -1,16 +1,12 @@
 # ecommerce_app
 
-A new Flutter project.
+##  О приложении:
 
-## Getting Started
+Приложение для соверщения онлайн покупок. 
 
-This project is a starting point for a Flutter application.
+##  Возможности приложения:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Получение данный через сеть интернет
+- Просмотр товаров
+- Просмотр детальное товаров
+- Добавление товара в корзину

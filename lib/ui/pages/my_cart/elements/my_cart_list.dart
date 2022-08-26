@@ -1,4 +1,3 @@
-import 'package:ecommerce_app/ui/pages/details/blocs/cart_count_cubit.dart';
 import 'package:ecommerce_app/ui/pages/my_cart/blocs/my_cart_list_cubit.dart';
 import 'package:ecommerce_app/ui/pages/my_cart/elements/good_count.dart';
 import 'package:flutter/material.dart';
