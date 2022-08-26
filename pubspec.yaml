@@ -1,0 +1,63 @@
+name: ecommerce_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  #architecture presentation
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  get_it: ^7.2.0
+
+  #http cllient
+  http: ^0.13.5
+
+  #utils
+  flutter_svg: ^1.1.4
+  either_dart: ^0.1.4
+  mask_text_input_formatter: ^2.4.0
+  intl: ^0.17.0
+  equatable: ^2.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/svg/
+
+  fonts:
+    - family: MarkPro
+      fonts:
+        - asset: assets/fonts/MarkPro.otf
+          weight: 400
+        - asset: assets/fonts/MarkPro-Medium.otf
+          weight: 500
+        - asset: assets/fonts/MarkPro-Bold.otf
+          weight: 700
+        - asset: assets/fonts/MarkPro-Heavy.otf
+          weight: 800
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/common/constants/
+  filename: assets.dart
+  field_prefix:
